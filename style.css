@@ -16,6 +16,7 @@
 }
 .signup{
     margin-left:45px;
+    margin-top:25px;
     padding-top:10px;
     font-size:15px;
     font-family:Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -44,11 +45,11 @@ button{
     background: url('/home/ismail/repos/landingpage2/images/nature3.jpg') no-repeat;
     background-position-y:-305px;
     background-position-x:-250px;
-    height:300px;
+    height:400px;
 
 }
 .bigword h1{
-    font-size: 40px;
+    font-size: 50px;
     color:white;
     padding-left:45px;
     padding-top: 15px;
@@ -56,22 +57,104 @@ button{
 }
 div p{
     color:white;
-    font-size:18px;
+    font-size:20px;
     margin-top:-10px;
     padding-left:45px;
     font-family:Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 h2{
+    margin-top:50px;
     text-align: center;
     color:#1F2937;
     font-family:Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 .exhibits{
     display:flex;
-    justify-content: space-around;
+    gap:30px;
+    padding:0 20px;
 
 }
-.item{
-    
+/**
+.exhibits div{
+    height:100px;
+    border:2px solid #3882F6;
+    border-radius: 15px;
+    flex:auto;
+}**/
+div .item{
+    width:500px;
+}
+div .item img{
+    width:100%;
+    border-radius:10px;
+}
+.caption{
+    margin-top: 10px;
+    text-align: center;
+    font-family:Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+section{
+    margin-top:63px;
+    width:100%;
+    height:;
+    background-color: #E5E7EB;
+}
+section p{
+    text-align: center;
+    font-weight:lighter;
+    color:#1F2937;
+    padding-top:40px;
+    padding-left:90px;
+    padding-right:90px;
+}
+section h4{
+    text-align: end;
+    padding-right:45px;
+    padding-bottom: 40px;
+}
+
+.action{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width:70%;
+    height:140px;
+    background-color: #3882F6;
+    border-radius: 5px;
+    margin:auto;
+    margin-bottom:45px;
+    margin-top: 35px;
+}
+.action h4{
+    color:white;
+}
+.action h5{
+    color:white;
+}
+
+.right a{
+    padding:6px 14px;
+    text-decoration: none;
+    color:white;
+    font-size: 15px;
+    font-weight: bold;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border:2px solid white;
+    border-radius: 7px;
+}
+.right a:hover{
+    background-color: white;
+    color:#1F2937;
+}
+footer{
+    width:100%;
+    height:65px;
+    background-color: #1F2937;
+}
+footer p{
+    text-align: center;
+    color:white;
+    padding-top: 20px;
 }
 
