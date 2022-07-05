@@ -11,14 +11,24 @@
     margin-left:55px;
     color:#1F2937;
 }
-.login{
-    margin-left:50px;
-    font-size:18px;
+.nav a:hover{
     color:#3882F6;
+}
+.signup{
+    margin-left:45px;
+    padding-top:10px;
+    font-size:15px;
+    font-family:Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    color:white;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    background-color:white;
-    border-color: #3882F6;
-    border-radius:15px;
+    background-color:#1F2937;
+    border: none;
+    border-radius:10px;
+}
+.signup:hover{
+    background-color: #3882F6;
+    color:#1F2937;
 }
 button{
     padding:5px 20px;
@@ -30,10 +40,15 @@ button{
     font-family: Georgia, 'Times New Roman', Times, serif;
     color:#3882F6;
 }
-.bigword h1{
-    width:100%;
+.bigword{
+    background: url('/home/ismail/repos/landingpage2/images/nature3.jpg') no-repeat;
+    background-position-y:-305px;
+    background-position-x:-250px;
     height:300px;
-    background-color: #1F2937;
+
+}
+.bigword h1{
+    font-size: 40px;
     color:white;
     padding-left:45px;
     padding-top: 15px;
@@ -41,5 +56,22 @@ button{
 }
 div p{
     color:white;
-    font-size:34px;
+    font-size:18px;
+    margin-top:-10px;
+    padding-left:45px;
+    font-family:Cochin, Georgia, Times, 'Times New Roman', serif;
 }
+h2{
+    text-align: center;
+    color:#1F2937;
+    font-family:Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.exhibits{
+    display:flex;
+    justify-content: space-around;
+
+}
+.item{
+    
+}
+
